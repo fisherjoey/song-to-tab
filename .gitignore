@@ -1,0 +1,30 @@
+# Environments and caches
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+
+# Third-party code and model weights (download separately, see README)
+vendor/
+models/
+*.ckpt
+*.pth
+*.th
+*.onnx
+
+# Audio, stems, transcriptions and generated tabs: bring your own, never commit them
+audio/
+stems/
+midi/
+tabs/
+listen/
+out/
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+*.opus
+*.webm
+*.mid
+*.midi
